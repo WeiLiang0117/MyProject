@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include <I2Cdev.h>
-//#include "HX711.h"
 #include <JJ_MPU6050_DMP_6Axis.h>  // 與DMP工作庫的修改版本（見註釋內）
 #define DEBUG 0
 #define CLR(x,y) (x&=(~(1<<y)))
